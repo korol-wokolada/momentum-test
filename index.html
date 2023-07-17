@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./owfont-master/css/owfont-regular.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Mini Momentum</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="search">
+        <input type="text" class="search-input" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="weather">
+        <input type="text" class="city" value="Minsk" />
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="slider-icons">
+        <button class="slide-prev slider-icon">&#8678</button>
+        <button class="slide-next slider-icon">&#8680</button>
+      </div>
+      <time class="time"></time>
+      <date class="date"></date>
+      <div class="greeting-container">
+        <span class="greeting"></span>
+        <input type="text" class="name" placeholder="enter your name..." />
+      </div>
+    </main>
+    <footer class="footer">
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+    </footer>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
